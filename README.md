@@ -30,11 +30,11 @@ in this project: User query-> selecting tools -> execute tools -> pass results t
 NLP User query -> Converted to equivalent SQL -> MCP server to run -> result will be passed to groq -> generate the business summary
 
 # .env file should contain this without white spaces
-GROQ_API_KEY=
-AZURE_SQL_SERVER=
-AZURE_SQL_DATABASE=
-AZURE_SQL_USERNAME=
-AZURE_SQL_PASSWORD=
+- GROQ_API_KEY=
+- AZURE_SQL_SERVER=
+- AZURE_SQL_DATABASE=
+- AZURE_SQL_USERNAME=
+- AZURE_SQL_PASSWORD=
 
 # RUN THE CODE
 1. Start the mcp server: python -m app.server.mcp_server
