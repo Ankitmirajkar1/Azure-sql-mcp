@@ -35,3 +35,9 @@ AZURE_SQL_SERVER=
 AZURE_SQL_DATABASE=
 AZURE_SQL_USERNAME=
 AZURE_SQL_PASSWORD=
+
+# RUN THE CODE
+1. Start the mcp server: python -m app.server.mcp_server
+
+2. Run the streamlit app: python -m streamlit run app/streamlit_app.py
+
