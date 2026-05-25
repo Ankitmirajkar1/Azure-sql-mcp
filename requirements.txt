@@ -1,0 +1,10 @@
+streamlit
+pandas
+sqlalchemy
+pyodbc
+python-dotenv
+plotly
+groq
+fastmcp
+mcp
+pydantic
